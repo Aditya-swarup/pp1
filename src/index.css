@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.button-63 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  float: left;
+  min-width: 140px;
+  margin-left: 50px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-63:active,
+.button-63:hover {
+  outline: 0;
+  background-image: linear-gradient(144deg,#6a3391, #5547b6 50%,#3eb0b8);
+}
+
+@media (min-width: 768px) {
+  .button-63 {
+    font-size: 24px;
+    
+    min-width: 196px;
+  }
+}
+.my-head{
+  color: #FFFFFF;
+}
+
+
+.about{
+size: 10rem;
+margin-left: 22%;
+margin-bottom: 3%;
+
+}
+
+
+.pro {
+  display:flex;
+}
+.car{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cara{
+display: inline;
+}
+.tag{
+  color: white;
+}
+
+
+.custom-button {
+  /* Set the background and text color for both normal and hover states */
+  background-color: transparent !important; /* Remove background color */
+  color: white !important; /* Set text color to white */
+  position: relative; /* Required for pseudo-element positioning */
+}
+
+.custom-button::before {
+  content: "Send"; /* Initial text content */
+}
+
+.custom-button:hover::before {
+  content: "confirm??"; /* Text content on hover */
+  margin-top: 80px;;
+}
+.vd{
+  padding-bottom: 20px;
+}
+/* Footer.css */
+
+.phone-container {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Align items vertically in the middle */
+}
+
+.phone-icon {
+  margin-right: 10px; /* Add some spacing between the icon and number */
+}
+.email-container {
+  display: flex; /* Display mail icon and email address on the same line */
+  align-items: center; /* Vertically center them */
+}
+
+.mail-icon {
+  margin-right: 10px; /* Add space between the email icon and the email address */
+}
+.bbg{
+  
+margin-top: 50px;
+}
